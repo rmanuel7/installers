@@ -35,3 +35,6 @@ IncludeOptional sites-enabled/*.conf
 ServerName 127.0.0.1
 ```
 
+```
+apachectl configtest
+```
