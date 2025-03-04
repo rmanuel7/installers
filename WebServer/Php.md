@@ -79,3 +79,14 @@ httpd -t
 cd C:\Apache24\bin
 httpd
 ```
+
+
+## Test a PHP file
+Create a new file named `index.php` in Apache’s web page root folder at `C:\Apache24\htdocs`. Add the following PHP code:
+
+```php
+<?php
+phpinfo();
+?>
+```
+
