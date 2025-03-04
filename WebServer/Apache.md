@@ -6,7 +6,7 @@ Los archivos binarios ejecutables para Windows se encuentran en páginas como [A
 
 ![image](https://github.com/user-attachments/assets/c47e4d32-42a0-4d16-8750-aee2fbd61dd4)
 
-<br/>
+<br />
 
 1. Guarda el archivo `.zip` con el paquete de software en una carpeta de tu ordenador local.
 2. Descomprime el archivo haciendo doble clic sobre el icono de la carpeta.
@@ -27,10 +27,11 @@ Este problema tiene solución y es precisamente la instalación de los component
 ## Error Apache AH00558
 An Apache `AH00558: Could not reliably determine the server's fully qualified domain name` message is generated when Apache is not configured with a global `ServerName` directive. The message is mainly for informational purposes, and an AH00558 error will not prevent Apache from running correctly.
 
-```config
+```
 # Include the virtual host configurations:
 IncludeOptional sites-enabled/*.conf
 
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 ServerName 127.0.0.1
 ```
+
