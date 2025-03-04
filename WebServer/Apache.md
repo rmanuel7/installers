@@ -35,6 +35,18 @@ IncludeOptional sites-enabled/*.conf
 ServerName 127.0.0.1
 ```
 
+## [Test your Installation](https://www.sitepoint.com/how-to-install-apache-on-windows/)
+Your Apache configuration can now be tested. Open a command box (Start > Run > cmd) and enter:
+
+### navigate to Apache bin directory
+
+```powershell
+cd /Apache24/bin
 ```
-apachectl configtest
+
+# Test httpd.conf validity
+
+```powershell
+httpd -t
 ```
+It should say “Syntax OK”. If not, correct any httpd.conf configuration errors and retest until none appear.
