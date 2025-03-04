@@ -1,5 +1,8 @@
 # [Install PHP](https://www.sitepoint.com/how-to-install-php-on-windows/)
 
+> [!NOTE]
+> Desde PHP 5.4.0, la SAPI CLI provee un [servidor web embebido](https://www.php.net/manual/es/features.commandline.webserver.php).
+
 ## Download the PHP files
 Get the latest [PHP x64 Thread Safe ZIP package](https://windows.php.net/download/).
 
