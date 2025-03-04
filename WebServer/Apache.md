@@ -50,3 +50,12 @@ cd /Apache24/bin
 httpd -t
 ```
 It should say “Syntax OK”. If not, correct any httpd.conf configuration errors and retest until none appear.
+
+
+## [install Apache as a Windows service](https://www.sitepoint.com/how-to-install-apache-on-windows/)
+The easiest way to start Apache is to add it as a Windows service. Open a new command prompt as administrator, and enter the following:
+
+```powershell
+cd /Apache24/bin
+httpd -k install
+```
